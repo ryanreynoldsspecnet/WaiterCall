@@ -1,0 +1,6 @@
+@WaiterCall.API_HostAddress = http://localhost:5009
+
+GET {{WaiterCall.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
