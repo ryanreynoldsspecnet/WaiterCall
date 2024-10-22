@@ -5,6 +5,10 @@ VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaiterCall.API", "WaiterCall.API\WaiterCall.API.csproj", "{FE7C22CF-4D0F-44F6-B253-FE6E16897182}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaiterCall.AppHost", "WaiterCall.AppHost\WaiterCall.AppHost.csproj", "{4CEDC661-F331-4080-B885-66CD8EA36F46}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WaiterCall.ServiceDefaults", "WaiterCall.ServiceDefaults\WaiterCall.ServiceDefaults.csproj", "{87FCDF53-E736-4897-9981-3A19B2EE45BF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{FE7C22CF-4D0F-44F6-B253-FE6E16897182}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FE7C22CF-4D0F-44F6-B253-FE6E16897182}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FE7C22CF-4D0F-44F6-B253-FE6E16897182}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CEDC661-F331-4080-B885-66CD8EA36F46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CEDC661-F331-4080-B885-66CD8EA36F46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CEDC661-F331-4080-B885-66CD8EA36F46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CEDC661-F331-4080-B885-66CD8EA36F46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87FCDF53-E736-4897-9981-3A19B2EE45BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87FCDF53-E736-4897-9981-3A19B2EE45BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87FCDF53-E736-4897-9981-3A19B2EE45BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87FCDF53-E736-4897-9981-3A19B2EE45BF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
