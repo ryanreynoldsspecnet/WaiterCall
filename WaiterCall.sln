@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaiterCall.Api", "WaiterCall.Api\WaiterCall.Api.csproj", "{4C51AA2F-3549-40A1-AB71-ADE12E9920DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaiterCall.AppHost", "WaiterCall.AppHost\WaiterCall.AppHost.csproj", "{F360D03A-A7E3-4D8F-AFB7-895B651BC1C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaiterCall.ServiceDefaults", "WaiterCall.ServiceDefaults\WaiterCall.ServiceDefaults.csproj", "{2914F354-AD51-4D75-BC34-411296507BCF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaiterCall.Web", "WaiterCall.Web\WaiterCall.Web\WaiterCall.Web.csproj", "{4E057C46-B57F-4C21-B439-271B7F557DDA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaiterCall.Web.Client", "WaiterCall.Web\WaiterCall.Web.Client\WaiterCall.Web.Client.csproj", "{606BF5E5-5139-4952-A03C-ACA488447D2A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaiterCall.KitchenApp", "WaiterCall.KitchenApp\WaiterCall.KitchenApp.csproj", "{059BE201-B444-4EE2-87CD-BFBE81D53E1A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaiterCall.WaiterApp", "WaiterCall.WaiterApp\WaiterCall.WaiterApp.csproj", "{AA194825-9FC4-4769-9C66-DE6B32852544}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4C51AA2F-3549-40A1-AB71-ADE12E9920DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C51AA2F-3549-40A1-AB71-ADE12E9920DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C51AA2F-3549-40A1-AB71-ADE12E9920DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C51AA2F-3549-40A1-AB71-ADE12E9920DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F360D03A-A7E3-4D8F-AFB7-895B651BC1C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F360D03A-A7E3-4D8F-AFB7-895B651BC1C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F360D03A-A7E3-4D8F-AFB7-895B651BC1C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F360D03A-A7E3-4D8F-AFB7-895B651BC1C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2914F354-AD51-4D75-BC34-411296507BCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2914F354-AD51-4D75-BC34-411296507BCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2914F354-AD51-4D75-BC34-411296507BCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2914F354-AD51-4D75-BC34-411296507BCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E057C46-B57F-4C21-B439-271B7F557DDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E057C46-B57F-4C21-B439-271B7F557DDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E057C46-B57F-4C21-B439-271B7F557DDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E057C46-B57F-4C21-B439-271B7F557DDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{606BF5E5-5139-4952-A03C-ACA488447D2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{606BF5E5-5139-4952-A03C-ACA488447D2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{606BF5E5-5139-4952-A03C-ACA488447D2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{606BF5E5-5139-4952-A03C-ACA488447D2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{059BE201-B444-4EE2-87CD-BFBE81D53E1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{059BE201-B444-4EE2-87CD-BFBE81D53E1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{059BE201-B444-4EE2-87CD-BFBE81D53E1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{059BE201-B444-4EE2-87CD-BFBE81D53E1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA194825-9FC4-4769-9C66-DE6B32852544}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA194825-9FC4-4769-9C66-DE6B32852544}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA194825-9FC4-4769-9C66-DE6B32852544}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA194825-9FC4-4769-9C66-DE6B32852544}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
